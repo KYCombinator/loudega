@@ -8,11 +8,11 @@ const BenefitCard = ({ icon: Icon, title, description }: {
   description: string;
 }) => {
   return (
-    <div className="glass-panel p-8 rounded-xl hover-card reveal-on-scroll">
-      <div className="w-12 h-12 bg-loudega-accent/10 rounded-lg flex items-center justify-center mb-5">
-        <Icon className="text-loudega-accent" size={24} />
+    <div className="glass-panel p-8 rounded-xl hover-card reveal-on-scroll border-l-4 border-purple-700">
+      <div className="w-12 h-12 bg-purple-700/20 rounded-lg flex items-center justify-center mb-5">
+        <Icon className="text-purple-700" size={24} />
       </div>
-      <h3 className="text-xl font-medium mb-3">{title}</h3>
+      <h3 className="text-xl font-medium mb-3 text-purple-900">{title}</h3>
       <p className="text-loudega-700">{description}</p>
     </div>
   );
@@ -53,11 +53,11 @@ const Benefits = () => {
   ];
 
   return (
-    <section id="benefits" className="content-section bg-loudega-50">
+    <section id="benefits" className="content-section bg-purple-50">
       <div className="container mx-auto">
         <div className="text-center mb-16">
-          <h2 className="section-title reveal-on-scroll">Community Benefits</h2>
-          <p className="section-subtitle reveal-on-scroll">
+          <h2 className="section-title reveal-on-scroll text-purple-800">Community Benefits</h2>
+          <p className="section-subtitle reveal-on-scroll text-purple-700">
             Discover how Loudega's community bodegas create positive change in Louisville neighborhoods
           </p>
         </div>
