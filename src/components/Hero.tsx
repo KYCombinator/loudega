@@ -60,7 +60,10 @@ const Hero = () => {
           </p>
           
           <div ref={buttonRef} className="flex flex-col sm:flex-row items-center justify-center gap-4 reveal-on-scroll">
-            <Button className="bg-loudega-accent hover:bg-loudega-accent/90 text-white px-8 py-6 text-lg rounded-lg">
+            <Button
+              className="bg-loudega-accent hover:bg-loudega-accent/90 text-white px-8 py-6 text-lg rounded-lg"
+              onClick={() => window.open('https://kycombinator.typeform.com/loudega', '_blank')}
+            >
               Apply to the Program
             </Button>
             <Button variant="outline" className="border-loudega-300 text-loudega-800 hover:bg-loudega-50 px-8 py-6 text-lg rounded-lg">

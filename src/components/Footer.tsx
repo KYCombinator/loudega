@@ -61,7 +61,7 @@ const Footer = () => {
                 </a>
               </li>
               <li>
-                <a href="#" className="text-loudega-400 hover:text-white transition-colors">
+                <a href="https://kycombinator.typeform.com/loudega" className="text-loudega-400 hover:text-white transition-colors">
                   Apply Now
                 </a>
               </li>
@@ -75,16 +75,6 @@ const Footer = () => {
               <li className="text-loudega-400">
                 123 Main Street<br />
                 Louisville, KY 40202
-              </li>
-              <li>
-                <a href="mailto:info@loudega.com" className="text-loudega-400 hover:text-white transition-colors">
-                  info@loudega.com
-                </a>
-              </li>
-              <li>
-                <a href="tel:+15025551234" className="text-loudega-400 hover:text-white transition-colors">
-                  (502) 555-1234
-                </a>
               </li>
             </ul>
           </div>
