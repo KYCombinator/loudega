@@ -64,12 +64,17 @@ const Navbar = () => {
             >
               Contact
             </a>
-            <Button 
+            <a
               href="https://kycombinator.typeform.com/loudega"
-              className="bg-loudega-accent hover:bg-loudega-accent/90 text-white"
+              target="_blank"
+              rel="noopener noreferrer"
             >
-              Apply Now
-            </Button>
+              <Button 
+                className="bg-loudega-accent hover:bg-loudega-accent/90 text-white"
+              >
+                Apply Now
+              </Button>
+            </a>
           </nav>
 
           {/* Mobile Menu Button */}
@@ -123,7 +128,7 @@ const Navbar = () => {
             className="bg-loudega-accent hover:bg-loudega-accent/90 text-white w-full mt-4"
             onClick={() => {
               setMobileMenuOpen(false);
-              window.location.href = 'https://kycombinator.typeform.com/loudega';
+              window.open('https://kycombinator.typeform.com/loudega', '_blank');
             }}
           >
             Apply Now

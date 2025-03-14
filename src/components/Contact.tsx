@@ -92,29 +92,10 @@ const Contact = () => {
                 </div>
                 <div>
                   <h4 className="font-medium mb-1">Address</h4>
-                  <p className="text-loudega-700">123 Main Street, Louisville, KY 40202</p>
+                  <p className="text-loudega-700">Louisville, KY 40202</p>
                 </div>
               </div>
               
-              <div className="flex items-start">
-                <div className="mr-4 p-3 bg-loudega-accent/10 rounded-full">
-                  <Mail className="text-loudega-accent h-5 w-5" />
-                </div>
-                <div>
-                  <h4 className="font-medium mb-1">Email</h4>
-                  <p className="text-loudega-700">info@loudega.com</p>
-                </div>
-              </div>
-              
-              <div className="flex items-start">
-                <div className="mr-4 p-3 bg-loudega-accent/10 rounded-full">
-                  <Phone className="text-loudega-accent h-5 w-5" />
-                </div>
-                <div>
-                  <h4 className="font-medium mb-1">Phone</h4>
-                  <p className="text-loudega-700">(502) 555-1234</p>
-                </div>
-              </div>
             </div>
             
             <div className="pt-8">
@@ -122,7 +103,10 @@ const Contact = () => {
               <p className="text-loudega-700 mb-6">
                 If you're ready to take the first step toward opening a community bodega, apply to our program today.
               </p>
-              <Button className="bg-loudega-accent hover:bg-loudega-accent/90 px-8 py-6 text-lg">
+              <Button 
+                className="bg-loudega-accent hover:bg-loudega-accent/90 px-8 py-6 text-lg"
+                onClick={() => window.open('https://kycombinator.typeform.com/loudega', '_blank')}
+              >
                 Apply to the Program
               </Button>
             </div>
